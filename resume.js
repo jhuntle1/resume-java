@@ -24,12 +24,12 @@ function displaySkill(skill, isCool){
     if (isCool ==true) {
         console.log('Check It' = isCool);
     } else {
-        console.log(skill)
+        console.log()
     }
 }
 
-('My Skills:');
-displaySkill('Sleeping');
+console.log('My Skills:');
+dis('Sleeping');
 console.log('Hearing without listening');
 console.log('An amazing freestyler');
 
