@@ -17,21 +17,20 @@ function displayPosition(companyName, jobTitle, description) {
 displayPosition('Sams Club' , 'Cart Attendant', 'where I would avoid work as much as possible');
 displayPosition('Hyundai Glovis' , 'Shuttle Driver', 'where I would avoid work as much as possible');
 
-function displaySkill(skill, isCool){
-    console.log(skill);
-    console.log(isCool);
 
-    if (isCool ==true) {
-        console.log('Check It' = isCool);
+function displaySkill(skillName, isItCool) {
+    if (isItCool === true) {
+        console.log ('Check It: ' + skillName);
     } else {
-        console.log()
+        console.log(skillName);
+    
     }
 }
 
-console.log('My Skills:');
-dis('Sleeping');
-console.log('Hearing without listening');
-console.log('An amazing freestyler');
+displaySkill('My Skills:');
+displaySkill('Sleeping', true);
+displaySkill('Hearing without listening');
+displaySkill('An amazing freestyler');
 
 
  
